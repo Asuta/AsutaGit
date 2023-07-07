@@ -194,7 +194,7 @@ MonoBehaviour:
     PhysicsBody3D:
     - Version: 2
       Config:
-        Value: 58
+        Value: 59
       Mass:
         RawValue: 524288
       Drag:
@@ -1245,6 +1245,1116 @@ MonoBehaviour:
         UserTag: 0
         ConnectedEntity:
           SceneIndexPlusOne: 2
+        ConnectedAnchor:
+          X:
+            RawValue: -22936
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Anchor:
+          X:
+            RawValue: 8519
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Axis:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Frequency:
+          RawValue: 0
+        DampingRatio:
+          RawValue: 0
+        AutoConfigureDistance: 0
+        Distance:
+          RawValue: 0
+        MinDistance:
+          RawValue: 0
+        MaxDistance:
+          RawValue: 0
+        UseAngleLimits: 0
+        LowerAngle:
+          RawValue: 0
+        UpperAngle:
+          RawValue: 0
+        UseMotor: 0
+        MotorSpeed:
+          RawValue: 0
+        MaxMotorTorque:
+          _hasValue: 0
+          _value:
+            RawValue: 0
+  - ArmComponent: []
+    ArmComponent2:
+    - ArmNumber: 0
+    HaHaTest: []
+    PlayerLink: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D:
+    - Version: 2
+      Config:
+        Value: 59
+      Mass:
+        RawValue: 524288
+      Drag:
+        RawValue: 327680
+      AngularDrag:
+        RawValue: 1310720
+      CenterOfMass:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      RotationFreeze:
+        Value: 0
+      GravityScale:
+        _hasValue: 0
+        _value:
+          RawValue: 0
+    PhysicsCollider2D: []
+    PhysicsCollider3D:
+    - ShapeConfig:
+        ShapeType: 2
+        SphereRadius:
+          RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 22937
+          Y:
+            RawValue: 15728
+          Z:
+            RawValue: 19660
+        RotationOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 7
+      IsTrigger: 0
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D:
+    - CallbackFlags:
+        Value: 0
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: -161742
+        Y:
+          RawValue: 120193
+        Z:
+          RawValue: 89980
+      Rotation:
+        X:
+          RawValue: -2
+        Y:
+          RawValue: 17694720
+        Z:
+          RawValue: 17896200
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D: []
+  - ArmComponent: []
+    ArmComponent2:
+    - ArmNumber: 1
+    HaHaTest: []
+    PlayerLink: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D:
+    - Version: 2
+      Config:
+        Value: 58
+      Mass:
+        RawValue: 65536
+      Drag:
+        RawValue: 327680
+      AngularDrag:
+        RawValue: 1310720
+      CenterOfMass:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      RotationFreeze:
+        Value: 0
+      GravityScale:
+        _hasValue: 0
+        _value:
+          RawValue: 0
+    PhysicsCollider2D: []
+    PhysicsCollider3D:
+    - ShapeConfig:
+        ShapeType: 2
+        SphereRadius:
+          RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 17694
+          Y:
+            RawValue: 7864
+          Z:
+            RawValue: 9830
+        RotationOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 7
+      IsTrigger: 0
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D:
+    - CallbackFlags:
+        Value: 0
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: -121045
+        Y:
+          RawValue: 127270
+        Z:
+          RawValue: 92995
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 11711292
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D:
+    - JointConfigs:
+      - StartDisabled: 0
+        JointType: 1
+        UserTag: 0
+        ConnectedEntity:
+          SceneIndexPlusOne: 10
+        ConnectedAnchor:
+          X:
+            RawValue: -9830
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: -19660
+        Anchor:
+          X:
+            RawValue: 17694
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Axis:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Frequency:
+          RawValue: 0
+        DampingRatio:
+          RawValue: 0
+        AutoConfigureDistance: 0
+        Distance:
+          RawValue: 0
+        MinDistance:
+          RawValue: 0
+        MaxDistance:
+          RawValue: 0
+        UseAngleLimits: 0
+        LowerAngle:
+          RawValue: 0
+        UpperAngle:
+          RawValue: 0
+        UseMotor: 0
+        MotorSpeed:
+          RawValue: 0
+        MaxMotorTorque:
+          _hasValue: 0
+          _value:
+            RawValue: 0
+  - ArmComponent: []
+    ArmComponent2:
+    - ArmNumber: 2
+    HaHaTest: []
+    PlayerLink: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D:
+    - Version: 2
+      Config:
+        Value: 58
+      Mass:
+        RawValue: 65536
+      Drag:
+        RawValue: 327680
+      AngularDrag:
+        RawValue: 1310720
+      CenterOfMass:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      RotationFreeze:
+        Value: 0
+      GravityScale:
+        _hasValue: 0
+        _value:
+          RawValue: 0
+    PhysicsCollider2D: []
+    PhysicsCollider3D:
+    - ShapeConfig:
+        ShapeType: 2
+        SphereRadius:
+          RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 13761
+          Y:
+            RawValue: 7864
+          Z:
+            RawValue: 5898
+        RotationOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 7
+      IsTrigger: 0
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D:
+    - CallbackFlags:
+        Value: 0
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: -76677
+        Y:
+          RawValue: 130678
+        Z:
+          RawValue: 102105
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D:
+    - JointConfigs:
+      - StartDisabled: 0
+        JointType: 1
+        UserTag: 0
+        ConnectedEntity:
+          SceneIndexPlusOne: 11
+        ConnectedAnchor:
+          X:
+            RawValue: -17694
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Anchor:
+          X:
+            RawValue: 13761
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Axis:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Frequency:
+          RawValue: 0
+        DampingRatio:
+          RawValue: 0
+        AutoConfigureDistance: 0
+        Distance:
+          RawValue: 0
+        MinDistance:
+          RawValue: 0
+        MaxDistance:
+          RawValue: 0
+        UseAngleLimits: 0
+        LowerAngle:
+          RawValue: 0
+        UpperAngle:
+          RawValue: 0
+        UseMotor: 0
+        MotorSpeed:
+          RawValue: 0
+        MaxMotorTorque:
+          _hasValue: 0
+          _value:
+            RawValue: 0
+  - ArmComponent: []
+    ArmComponent2:
+    - ArmNumber: 3
+    HaHaTest: []
+    PlayerLink: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D:
+    - Version: 2
+      Config:
+        Value: 58
+      Mass:
+        RawValue: 65536
+      Drag:
+        RawValue: 327680
+      AngularDrag:
+        RawValue: 1310720
+      CenterOfMass:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      RotationFreeze:
+        Value: 0
+      GravityScale:
+        _hasValue: 0
+        _value:
+          RawValue: 0
+    PhysicsCollider2D: []
+    PhysicsCollider3D:
+    - ShapeConfig:
+        ShapeType: 2
+        SphereRadius:
+          RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 13762
+          Y:
+            RawValue: 7864
+          Z:
+            RawValue: 5898
+        RotationOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 7
+      IsTrigger: 0
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D:
+    - CallbackFlags:
+        Value: 0
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: -33619
+        Y:
+          RawValue: 128581
+        Z:
+          RawValue: 104726
+      Rotation:
+        X:
+          RawValue: -2
+        Y:
+          RawValue: 11796480
+        Z:
+          RawValue: 11796480
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D:
+    - JointConfigs:
+      - StartDisabled: 0
+        JointType: 1
+        UserTag: 0
+        ConnectedEntity:
+          SceneIndexPlusOne: 12
+        ConnectedAnchor:
+          X:
+            RawValue: -13761
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Anchor:
+          X:
+            RawValue: 13761
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Axis:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Frequency:
+          RawValue: 0
+        DampingRatio:
+          RawValue: 0
+        AutoConfigureDistance: 0
+        Distance:
+          RawValue: 0
+        MinDistance:
+          RawValue: 0
+        MaxDistance:
+          RawValue: 0
+        UseAngleLimits: 0
+        LowerAngle:
+          RawValue: 0
+        UpperAngle:
+          RawValue: 0
+        UseMotor: 0
+        MotorSpeed:
+          RawValue: 0
+        MaxMotorTorque:
+          _hasValue: 0
+          _value:
+            RawValue: 0
+  - ArmComponent: []
+    ArmComponent2:
+    - ArmNumber: 4
+    HaHaTest: []
+    PlayerLink: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D:
+    - Version: 2
+      Config:
+        Value: 58
+      Mass:
+        RawValue: 65536
+      Drag:
+        RawValue: 327680
+      AngularDrag:
+        RawValue: 1310720
+      CenterOfMass:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      RotationFreeze:
+        Value: 0
+      GravityScale:
+        _hasValue: 0
+        _value:
+          RawValue: 0
+    PhysicsCollider2D: []
+    PhysicsCollider3D:
+    - ShapeConfig:
+        ShapeType: 2
+        SphereRadius:
+          RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 27525
+          Y:
+            RawValue: 9830
+          Z:
+            RawValue: 9830
+        RotationOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 7
+      IsTrigger: 0
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D:
+    - CallbackFlags:
+        Value: 0
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: -218365
+        Y:
+          RawValue: 127533
+        Z:
+          RawValue: 94961
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D:
+    - JointConfigs:
+      - StartDisabled: 0
+        JointType: 1
+        UserTag: 0
+        ConnectedEntity:
+          SceneIndexPlusOne: 10
+        ConnectedAnchor:
+          X:
+            RawValue: -9829
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 19660
+        Anchor:
+          X:
+            RawValue: 27525
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Axis:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Frequency:
+          RawValue: 0
+        DampingRatio:
+          RawValue: 0
+        AutoConfigureDistance: 0
+        Distance:
+          RawValue: 0
+        MinDistance:
+          RawValue: 0
+        MaxDistance:
+          RawValue: 0
+        UseAngleLimits: 0
+        LowerAngle:
+          RawValue: 0
+        UpperAngle:
+          RawValue: 0
+        UseMotor: 0
+        MotorSpeed:
+          RawValue: 0
+        MaxMotorTorque:
+          _hasValue: 0
+          _value:
+            RawValue: 0
+  - ArmComponent: []
+    ArmComponent2:
+    - ArmNumber: 5
+    HaHaTest: []
+    PlayerLink: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D:
+    - Version: 2
+      Config:
+        Value: 58
+      Mass:
+        RawValue: 65536
+      Drag:
+        RawValue: 327680
+      AngularDrag:
+        RawValue: 1310720
+      CenterOfMass:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      RotationFreeze:
+        Value: 0
+      GravityScale:
+        _hasValue: 0
+        _value:
+          RawValue: 0
+    PhysicsCollider2D: []
+    PhysicsCollider3D:
+    - ShapeConfig:
+        ShapeType: 2
+        SphereRadius:
+          RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 23592
+          Y:
+            RawValue: 7864
+          Z:
+            RawValue: 10485
+        RotationOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 7
+      IsTrigger: 0
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D:
+    - CallbackFlags:
+        Value: 0
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: -275775
+        Y:
+          RawValue: 126877
+        Z:
+          RawValue: 95682
+      Rotation:
+        X:
+          RawValue: 17694720
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D:
+    - JointConfigs:
+      - StartDisabled: 0
+        JointType: 1
+        UserTag: 0
+        ConnectedEntity:
+          SceneIndexPlusOne: 14
+        ConnectedAnchor:
+          X:
+            RawValue: -27525
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Anchor:
+          X:
+            RawValue: 23592
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Axis:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Frequency:
+          RawValue: 0
+        DampingRatio:
+          RawValue: 0
+        AutoConfigureDistance: 0
+        Distance:
+          RawValue: 0
+        MinDistance:
+          RawValue: 0
+        MaxDistance:
+          RawValue: 0
+        UseAngleLimits: 0
+        LowerAngle:
+          RawValue: 0
+        UpperAngle:
+          RawValue: 0
+        UseMotor: 0
+        MotorSpeed:
+          RawValue: 0
+        MaxMotorTorque:
+          _hasValue: 0
+          _value:
+            RawValue: 0
+  - ArmComponent: []
+    ArmComponent2:
+    - ArmNumber: 6
+    HaHaTest: []
+    PlayerLink: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D:
+    - Version: 2
+      Config:
+        Value: 58
+      Mass:
+        RawValue: 65536
+      Drag:
+        RawValue: 327680
+      AngularDrag:
+        RawValue: 1310720
+      CenterOfMass:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      RotationFreeze:
+        Value: 0
+      GravityScale:
+        _hasValue: 0
+        _value:
+          RawValue: 0
+    PhysicsCollider2D: []
+    PhysicsCollider3D:
+    - ShapeConfig:
+        ShapeType: 2
+        SphereRadius:
+          RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 25559
+          Y:
+            RawValue: 7864
+          Z:
+            RawValue: 7864
+        RotationOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 7
+      IsTrigger: 0
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D:
+    - CallbackFlags:
+        Value: 0
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: -339017
+        Y:
+          RawValue: 123273
+        Z:
+          RawValue: 94306
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D:
+    - JointConfigs:
+      - StartDisabled: 0
+        JointType: 1
+        UserTag: 0
+        ConnectedEntity:
+          SceneIndexPlusOne: 15
+        ConnectedAnchor:
+          X:
+            RawValue: -23592
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Anchor:
+          X:
+            RawValue: 25559
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Axis:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        Frequency:
+          RawValue: 0
+        DampingRatio:
+          RawValue: 0
+        AutoConfigureDistance: 0
+        Distance:
+          RawValue: 0
+        MinDistance:
+          RawValue: 0
+        MaxDistance:
+          RawValue: 0
+        UseAngleLimits: 0
+        LowerAngle:
+          RawValue: 0
+        UpperAngle:
+          RawValue: 0
+        UseMotor: 0
+        MotorSpeed:
+          RawValue: 0
+        MaxMotorTorque:
+          _hasValue: 0
+          _value:
+            RawValue: 0
+  - ArmComponent: []
+    ArmComponent2:
+    - ArmNumber: 7
+    HaHaTest: []
+    PlayerLink: []
+    CharacterController2D: []
+    CharacterController3D: []
+    NavMeshAvoidanceAgent: []
+    NavMeshAvoidanceObstacle: []
+    NavMeshPathfinder: []
+    NavMeshSteeringAgent: []
+    PhysicsBody2D: []
+    PhysicsBody3D:
+    - Version: 2
+      Config:
+        Value: 58
+      Mass:
+        RawValue: 65536
+      Drag:
+        RawValue: 327680
+      AngularDrag:
+        RawValue: 1310720
+      CenterOfMass:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+      RotationFreeze:
+        Value: 0
+      GravityScale:
+        _hasValue: 0
+        _value:
+          RawValue: 0
+    PhysicsCollider2D: []
+    PhysicsCollider3D:
+    - ShapeConfig:
+        ShapeType: 2
+        SphereRadius:
+          RawValue: 0
+        PositionOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        BoxExtents:
+          X:
+            RawValue: 8519
+          Y:
+            RawValue: 11141
+          Z:
+            RawValue: 13107
+        RotationOffset:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+        UserTag: 0
+        IsPersistent: 1
+        CompoundShapes: []
+        IsSetFromSourceCollider: 0
+      Layer: 7
+      IsTrigger: 0
+      PhysicsMaterial:
+        Id:
+          Value: 0
+    PhysicsCallbacks2D: []
+    PhysicsCallbacks3D:
+    - CallbackFlags:
+        Value: 0
+    Transform2D: []
+    Transform2DVertical: []
+    Transform3D:
+    - Position:
+        X:
+          RawValue: -161153
+        Y:
+          RawValue: 158466
+        Z:
+          RawValue: 88342
+      Rotation:
+        X:
+          RawValue: 0
+        Y:
+          RawValue: 0
+        Z:
+          RawValue: 0
+    View: []
+    PhysicsJoints2D: []
+    PhysicsJoints3D:
+    - JointConfigs:
+      - StartDisabled: 0
+        JointType: 1
+        UserTag: 0
+        ConnectedEntity:
+          SceneIndexPlusOne: 10
         ConnectedAnchor:
           X:
             RawValue: -22936
