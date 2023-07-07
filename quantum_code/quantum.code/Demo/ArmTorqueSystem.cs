@@ -19,6 +19,7 @@ namespace Quantum
 
         }
 
+        
         public override void Update(Frame f, ref Filter filter)
         {
             count++;
@@ -137,12 +138,18 @@ namespace Quantum
 
             //}
 
-            if (count % 3== 0)
-            {
-                FPVector3 torqueVector = new FPVector3(deltaRotation.X, deltaRotation.Y, deltaRotation.Z) * 30;
-                // 施加扭矩
-                filter.PhysicsBody->AddTorque(torqueVector);
-            }
+            //FPVector3 torqueVector = new FPVector3(deltaRotation.X, deltaRotation.Y, deltaRotation.Z) * 30;
+            //// 施加扭矩
+            //filter.PhysicsBody->AddTorque(torqueVector);
+
+
+
+            //if (count % 3== 0)
+            //{
+            //    FPVector3 torqueVector = new FPVector3(deltaRotation.X, deltaRotation.Y, deltaRotation.Z) * 30;
+            //    // 施加扭矩
+            //    filter.PhysicsBody->AddTorque(torqueVector);
+            //}
             //else if (count % 5 == 0)
             //{
             //    FPVector3 downForce = new FPVector3(0, -30, 0);
