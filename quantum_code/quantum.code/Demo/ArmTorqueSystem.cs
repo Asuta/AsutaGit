@@ -6,8 +6,8 @@ namespace Quantum
 {
     public unsafe class ArmTorqueSystem : SystemMainThreadFilter<ArmTorqueSystem.Filter>, ISignalOnPlayerDataSet
     {
-        
 
+        public int count = 0;
         public struct Filter
         {
             public EntityRef Entity;
@@ -21,6 +21,8 @@ namespace Quantum
 
         public override void Update(Frame f, ref Filter filter)
         {
+            count++;
+            if (count >= 10000) count = 0;
             var input = f.GetPlayerInput(0);
             //var test = input->TargetRotation;
             var Arm = filter.Arm;
@@ -135,22 +137,36 @@ namespace Quantum
 
             //}
 
-            //FPQuaternion TargetRotation = new FPQuaternion(X, Y, Z, W);
-            //FPQuaternion deltaRotation = TargetRotation * FPQuaternion.Inverse(thisT->Rotation);
-            //// 根据差距计算出需要施加的扭矩
-            FPVector3 torqueVector = new FPVector3(deltaRotation.X, deltaRotation.Y, deltaRotation.Z) * 30;
-            // 施加扭矩
-            filter.PhysicsBody->AddTorque(torqueVector);
-
-            switch (Arm->ArmNumber)
+            if (count % 3== 0)
             {
-                case 1:
-                    //Log.Debug("1111111111Torqueeeeeeee" + torqueVector);
-                    break;
-                case 2:
-                    Log.Debug("22222222222Torqueeeeeeee" + torqueVector);
-                    break;
+                FPVector3 torqueVector = new FPVector3(deltaRotation.X, deltaRotation.Y, deltaRotation.Z) * 30;
+                // 施加扭矩
+                filter.PhysicsBody->AddTorque(torqueVector);
             }
+            //else if (count % 5 == 0)
+            //{
+            //    FPVector3 downForce = new FPVector3(0, -30, 0);
+            //    filter.PhysicsBody->AddForce(downForce);
+            //}
+
+            ////FPQuaternion TargetRotation = new FPQuaternion(X, Y, Z, W);
+            ////FPQuaternion deltaRotation = TargetRotation * FPQuaternion.Inverse(thisT->Rotation);
+            ////// 根据差距计算出需要施加的扭矩
+            //FPVector3 torqueVector = new FPVector3(deltaRotation.X, deltaRotation.Y, deltaRotation.Z) * 30;
+            //// 施加扭矩
+            //filter.PhysicsBody->AddTorque(torqueVector);
+            ////FPVector3 downForce = new FPVector3(0, -10, 0);
+            ////filter.PhysicsBody->AddForce(downForce);
+
+            //switch (Arm->ArmNumber)
+            //{
+            //    case 1:
+            //        //Log.Debug("1111111111Torqueeeeeeee" + torqueVector);
+            //        break;
+            //    case 2:
+            //        Log.Debug("22222222222Torqueeeeeeee" + torqueVector);
+            //        break;
+            //}
 
 
 
