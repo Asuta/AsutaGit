@@ -1,3 +1,0 @@
-version: 2.1.7 Stable 1164
-date: 2023-06-14 09:00:05
-git: 2.1/develop (53b66494c)
