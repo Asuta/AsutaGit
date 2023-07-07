@@ -1,0 +1,59 @@
+﻿input {
+	Byte XX0;
+	Byte YY0;
+	Byte ZZ0;
+	Byte WW0;
+
+	Byte XX1;
+	Byte YY1;
+	Byte ZZ1;
+	Byte WW1;
+
+    Byte XX2;
+	Byte YY2;
+	Byte ZZ2;
+	Byte WW2;
+
+	Byte XX3;
+	Byte YY3;
+	Byte ZZ3;
+	Byte WW3;
+
+	Byte XX4;
+	Byte YY4;
+	Byte ZZ4;
+	Byte WW4;
+
+	Byte XX5;
+	Byte YY5;
+	Byte ZZ5;
+	Byte WW5;
+
+	Byte XX6;
+	Byte YY6;
+	Byte ZZ6;
+	Byte WW6;
+
+	Byte XX7;
+	Byte YY7;
+	Byte ZZ7;
+	Byte WW7;
+}
+
+component PlayerLink {
+	player_ref Player;
+}
+
+component HaHaTest {
+	player_ref Playerr;
+}
+
+component ArmComponent {
+	int ArmNumber;
+}
+
+component ArmComponent2 {
+	int ArmNumber;
+}
+
+

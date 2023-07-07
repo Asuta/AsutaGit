@@ -1,0 +1,60 @@
+﻿2023-07-05 17:37:49,156 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Using Server GC:True
+2023-07-05 17:37:49,167 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Using GC LatencyMode:Interactive
+2023-07-05 17:37:49,168 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Setup: serverId=fe0bded6-5938-4266-a6a5-d86f6e973b74
+2023-07-05 17:37:49,181 [1] INFO  Photon.Hive.Plugin.PluginManager - Plugin configured: name=DeterministicPlugin
+2023-07-05 17:37:49,182 [1] INFO  Photon.Hive.Plugin.PluginManager - 	Attribute: EmbeddedDBFile=Quantum.db.json
+2023-07-05 17:37:49,182 [1] INFO  Photon.Hive.Plugin.PluginManager - 	Attribute: PathToDBFile=assets/db.json
+2023-07-05 17:37:49,182 [1] INFO  Photon.Hive.Plugin.PluginManager - 	Attribute: PathToLUTFolder=assets/LUT
+2023-07-05 17:37:49,189 [1] ERROR Photon.Hive.Plugin.PluginManager - Got Exception during either loading of assembly C:\UnityProject\QuantumTestTwo\photon-quantum-customplugin_v2.1.7-stable\Photon-Server\deploy\Plugins/DeterministicPlugin//bin/quantum.custom.plugin.dll or type Quantum.QuantumCustomPluginFactory. Exception Msg: 系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+System.IO.FileNotFoundException: 系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+   在 System.Reflection.RuntimeAssembly.nLoadFile(String path, Evidence evidence)
+   在 System.Reflection.Assembly.LoadFile(String path)
+   在 Photon.Hive.Plugin.PluginManager.SetupPluginManager(String path, String typeName, Dictionary`2 config)
+2023-07-05 17:37:54,706 [1] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - PerformanceCounter category 'Photon: Http Queue Counters' does not exists and will be created
+2023-07-05 17:37:56,210 [1] INFO  Photon.SocketServer.Diagnostics.EncryptionQueuePerfCounters - PerformanceCounter category 'Photon: Encryption Queue Counters' does not exists and will be created
+2023-07-05 17:37:57,688 [1] INFO  Photon.SocketServer.Diagnostics.ManagedCorePerformanceCounters - PerformanceCounter category 'Photon Managed Core' does not exists and will be created
+2023-07-05 17:37:58,169 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - TokenCreator initialized with an expiration of 01:00:00
+2023-07-05 17:37:59,205 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Bandwidth counters are not valid
+2023-07-05 17:37:59,207 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter Business Logic Queue
+2023-07-05 17:37:59,208 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Queue
+2023-07-05 17:37:59,208 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Processing
+2023-07-05 17:37:59,209 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter ENet Threads Active
+2023-07-05 17:37:59,209 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers +/sec
+2023-07-05 17:37:59,209 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Disconnected Peers (C) +/sec
+2023-07-05 17:37:59,209 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter TCP: Peers
+2023-07-05 17:37:59,209 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers +/sec
+2023-07-05 17:37:59,209 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Disconnected Peers (C) +/sec
+2023-07-05 17:37:59,209 [1] WARN  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - Did not find counter UDP: Peers
+2023-07-05 17:37:59,218 [1] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackControlSystem - Initialized FeedbackControlSystem with 1 controllers from config file.
+2023-07-05 17:37:59,223 [1] INFO  Photon.Common.LoadBalancer.LoadShedding.Diagnostics.WorkloadPerformanceCounters - PerformanceCounter category 'Photon: Workload' does not exists and will be created
+2023-07-05 17:37:59,661 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Watching for application state file in C:\UnityProject\QuantumTestTwo\photon-quantum-customplugin_v2.1.7-stable\Photon-Server\deploy\ServerState.txt
+2023-07-05 17:37:59,662 [1] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2023-07-05 17:37:59,663 [1] INFO  Photon.LoadBalancing.GameServer.GameApplication - Initializing master server connection ...
+2023-07-05 17:37:59,673 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - s2s MS connection: Parameters to register on master: address 192.168.88.48, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, ServerID fe0bded6-5938-4266-a6a5-d86f6e973b74, Hostname localhost, IPv6Address , WebRTC 7072
+2023-07-05 17:37:59,684 [1] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - s2s MS connection: Connecting to master at 192.168.88.48:4520, serverId=fe0bded6-5938-4266-a6a5-d86f6e973b74
+2023-07-05 17:37:59,685 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Game; AppPath=C:\UnityProject\QuantumTestTwo\photon-quantum-customplugin_v2.1.7-stable\Photon-Server\deploy\LoadBalancing\GameServer, Type=Photon.LoadBalancing.GameServer.GameApplication 
+2023-07-05 17:37:59,685 [1] INFO  Photon.SocketServer.ApplicationBase - Using Server GC:True
+2023-07-05 17:37:59,686 [1] INFO  Photon.SocketServer.ApplicationBase - Using GC LatencyMode:Interactive
+2023-07-05 17:38:02,000 [29] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Level1 with input 13
+2023-07-05 17:38:02,000 [29] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Level1
+2023-07-05 17:38:03,466 [12] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - s2s MS connection: connection established: address:192.168.88.48, ConnectionId:f7746c79-17ee-4238-a102-df51bff48f2e
+2023-07-05 17:38:03,467 [12] INFO  Photon.Common.LoadBalancer.ServerStateManager - Server state is set to online
+2023-07-05 17:38:03,470 [12] INFO  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - Successfully registered at master server: serverId=fe0bded6-5938-4266-a6a5-d86f6e973b74
+2023-07-05 17:38:03,471 [12] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - s2s MS connection: connection registered on master: address:192.168.88.48
+2023-07-05 17:38:03,838 [12] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Performance counters successfully initialized: instanceName=_Total
+2023-07-05 17:38:03,943 [12] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Performance counters successfully initialized: instanceName=LoadBalancing_rpc
+2023-07-05 17:38:04,147 [29] INFO  Photon.SocketServer.Diagnostics.HttpQueuePerformanceCounters - Performance counters successfully initialized: instanceName=LoadBalancing_game
+2023-07-05 17:38:22,997 [16] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Level1 to Lowest with input 8
+2023-07-05 17:38:23,002 [16] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Level1, new=Lowest
+2023-07-05 17:39:23,707 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Lowest to Level1 with input 11
+2023-07-05 17:39:23,707 [11] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Lowest, new=Level1
+2023-07-05 17:41:58,093 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.FeedbackController - Transit CpuUsage from Level1 to Lowest with input 8
+2023-07-05 17:41:58,094 [17] INFO  Photon.Common.LoadBalancer.LoadShedding.WorkloadController - FeedbackLevel changed: old=Level1, new=Lowest
+2023-07-05 19:11:31,454 [27] WARN  Photon.LoadBalancing.GameServer.OutgoingMasterServerPeer - s2s MS connection: connection closed (id=1, reason=0, detail=), serverId=fe0bded6-5938-4266-a6a5-d86f6e973b74
+2023-07-06 08:28:36,117 [10] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - s2s MS connection: Parameters to register on master: address 192.168.88.48, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, ServerID fe0bded6-5938-4266-a6a5-d86f6e973b74, Hostname localhost, IPv6Address , WebRTC 7072
+2023-07-06 08:28:36,119 [10] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - s2s MS connection: Connecting to master at 192.168.88.48:4520, serverId=fe0bded6-5938-4266-a6a5-d86f6e973b74
+2023-07-06 08:28:53,461 [20] WARN  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - s2s MS connection: connection failed: address=192.168.88.48:4520, errorCode=1236, msg=由本地系统中止网络连接。
+2023-07-06 08:29:08,474 [19] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - s2s MS connection: Parameters to register on master: address 192.168.88.48, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, ServerID fe0bded6-5938-4266-a6a5-d86f6e973b74, Hostname localhost, IPv6Address , WebRTC 7072
+2023-07-06 08:29:08,474 [19] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - s2s MS connection: Connecting to master at 192.168.88.48:4520, serverId=fe0bded6-5938-4266-a6a5-d86f6e973b74
+2023-07-06 08:29:23,482 [14] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - s2s MS connection: Parameters to register on master: address 192.168.88.48, TCP 4531, UDP 5056, WebSocket 9091, Secure WebSocket 19091, ServerID fe0bded6-5938-4266-a6a5-d86f6e973b74, Hostname localhost, IPv6Address , WebRTC 7072
+2023-07-06 08:29:23,482 [14] INFO  Photon.LoadBalancing.GameServer.MasterServerConnectionBase - s2s MS connection: Connecting to master at 192.168.88.48:4520, serverId=fe0bded6-5938-4266-a6a5-d86f6e973b74
