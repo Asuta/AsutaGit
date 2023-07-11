@@ -1290,7 +1290,7 @@ MonoBehaviour:
           SceneIndexPlusOne: 9
         ConnectedAnchor:
           X:
-            RawValue: 0
+            RawValue: -91095
           Y:
             RawValue: 0
           Z:
@@ -2064,7 +2064,7 @@ MonoBehaviour:
           Y:
             RawValue: 0
           Z:
-            RawValue: 0
+            RawValue: -119930
         Anchor:
           X:
             RawValue: 80609
